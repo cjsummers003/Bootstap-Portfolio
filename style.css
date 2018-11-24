@@ -8,13 +8,14 @@ body {
 
 
 nav {
+  position: static;
   line-height: 40px;
   border-bottom: 1px solid grey;
   font-family: Georgia, 'Times New Roman', Times, 
 }
 
 .navbar-brand, navbar :only-child { 
-  position: fixed;
+  position: static;
   font-family: 'EB Garamond', serif;
   font-size: 30px;
   padding: 16px;
