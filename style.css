@@ -1,80 +1,77 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line height: 30px;
-    margin: auto;
-    background: url("images/rockywall.png")
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line height: 30px;
+  margin: auto;
+  background: url("images/rockywall.png")
 }
-
 
 nav {
   position: static;
-  line-height: 40px;
   border-bottom: 1px solid grey;
-  font-family: Georgia, 'Times New Roman', Times, 
 }
 
-.navbar-brand, navbar :only-child { 
+.navbar-brand :only-child { 
   position: static;
+  line-height: 10px;
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
-  padding: 16px;
-  margin-left: 13%;
+  font-size: 40px;
+  padding: 50px 10px;
+  margin-left: 54%;
   border-bottom: 1px solid grey;
   background-color: blue;
 }
 
 .nav-item { 
-  margin-right: 3%;
+  margin-right: 2%;
 }
 
 .display-4, h1 {
-    color: blue;
+  color: blue;
 }
 
 .work {
-    font-family: 'Slabo 27px', serif;
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  }.work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
-
-footer {
-    text-align: center;
-    background-color: #777;
-    border-top: 4px solid green;
-    padding: 20px;
+  font-family: 'Slabo 27px', serif;
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}.work:nth-child(even) {
+  margin-right: 40px;
 }
 
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #777;
+  border-top: 4px solid green;
+  padding: 20px;
+}
