@@ -12,7 +12,6 @@ nav {
 }
 
 .navbar-brand :only-child { 
-  position: static;
   line-height: 10px;
   font-family: 'EB Garamond', serif;
   font-size: 40px;
