@@ -3,23 +3,28 @@ body {
   font-size: 16px;
   line height: 30px;
   margin: auto;
-  background: url("images/rockywall.png")
+  background: url("images/Spaceman.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 nav {
   position: static;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
 }
 
 .navbar-brand :only-child { 
+  color: white;
   position: static;
   line-height: 5px;
   font-family: 'EB Garamond', serif;
   font-size: 40px;
   padding: 10px;
   margin-left: 54%;
-  border-bottom: 1px solid grey;
-  background-color: blue;
+  /* border-bottom: 1px solid grey; */
+  background-color: transparent;
+  
 }
 
 .nav-item { 
@@ -30,18 +35,45 @@ nav {
   color: blue;
 }
 
+/* about me section */
+.jumbotron {
+  color: blue;
+  background-color: transparent;
+}
+
+#aboutMe{
+  color: whitesmoke;
+  opacity: 0.6;
+  /* background-image: url("images/spaceback.jpg"); */
+  background-color: black;
+}
+
+/* //profile page */
+
 .work {
   font-family: 'Slabo 27px', serif;
+  color: white;
   position: relative;
   float: left;
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-}.work:nth-child(even) {
+  border: solid 1px black;
+}
+
+.btn{
+  margin: 0 55px;
+  text-align: center;
+  background-image: url("images/spaceback.jpg");
+  background-color: transparent;
+}
+
+.work:nth-child(even) {
   margin-right: 40px;
 }
 
 .work img {
+  color: white;
   width: 100%;
   border: 0 none;
   opacity: 0.8;
@@ -69,10 +101,20 @@ nav {
   margin-right: 25px;
 }
 
-footer {
+/* //contact page */
+#newBtn{
+  margin: 0 auto;
   text-align: center;
-  background-color: #777;
-  border-top: 4px solid green;
+  background-image: url("images/spaceback.jpg");
+  background-color: transparent;
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  /* border-top: 4px solid green; */
   padding: 20px;
 }
 
