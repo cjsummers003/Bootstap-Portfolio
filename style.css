@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line height: 30px;
   margin: auto;
-  background: url("images/spaceman.jpg");
+  background: url("images/bg3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -32,7 +32,7 @@ nav {
 }
 
 .display-4, h1 {
-  color: blue;
+  color: white;
 }
 
 /* about me section */
@@ -43,8 +43,7 @@ nav {
 
 #aboutMe{
   color: whitesmoke;
-  opacity: 0.6;
-  /* background-image: url("images/spaceback.jpg"); */
+  /* opacity: 0.6; */
   background-color: black;
 }
 
@@ -64,7 +63,7 @@ nav {
 .btn{
   margin: 0 55px;
   text-align: center;
-  background-image: url("images/spaceback.jpg");
+  background-image: url("./images/spaceback.jpg");
   background-color: transparent;
 }
 
@@ -105,7 +104,7 @@ nav {
 #newBtn{
   margin: 0 auto;
   text-align: center;
-  background-image: url("images/spaceback.jpg");
+  background-image: url("./images/spaceback.jpg");
   background-color: transparent;
 }
 
